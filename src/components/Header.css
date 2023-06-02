@@ -1,0 +1,64 @@
+input{
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+.slidermargin{
+    margin-right: 340px;
+}
+.slidermargin2{
+   border: 2px solid black;
+   width: 40px;
+   
+}
+ div .boxx{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(53, 55, 55);
+    box-shadow: 0 0 10px rgb(204, 206, 206);
+    border-radius: 50px;
+
+    margin: 10px;
+
+
+}
+.boxx:hover{
+    box-shadow: 0 0 10px rgb(53, 55, 55);
+}
+.headingt{
+    color: rgb(53, 55, 55);
+    text-align: center;
+    background-color: rgb(213, 216, 216);
+}
+.green-bold {
+    color: green;
+    font-weight: bold;
+  }
+  .text-green{
+    color: bisque;
+  }
+  .download-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .download-button {
+    display: flex;
+    align-items: center;
+
+    background-color: #eaeaea;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+
+
+  
