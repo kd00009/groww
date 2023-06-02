@@ -28,6 +28,7 @@ const Header = () => {
   return (
     <div className="mb-3">
       <div>
+      <div>
       <div className="d-flex justify-content-between">
           <div className="slidermargin flex-2">Monthly Investment: </div>
           <div className="slidermargin2 text-center  bg-green-300">{monthlyInvestment}</div>
@@ -69,6 +70,7 @@ const Header = () => {
           step="1"
           onChange={(event) => handleSliderChange(event, 'expectedReturnRate')}
         />
+      </div>
       </div>
 
       <div className="rounded mx-auto d-block align-middle boxx p-2">
